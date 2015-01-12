@@ -1,0 +1,15 @@
+
+.navbar-center {
+	content: url("/images/logo.png");
+	position: absolute;
+	width: 180px;
+	height: 75px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: transparent url("/images/logo-background.png") left top no-repeat;
+	background-size: 100%;
+	text-align: center;
+	display: block;
+}

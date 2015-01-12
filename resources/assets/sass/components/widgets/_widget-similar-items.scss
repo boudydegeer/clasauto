@@ -1,0 +1,20 @@
+&.widget-similar-items
+{
+	.item-image
+	{
+		min-height: 90px;
+		max-height: 90px;
+		overflow: hidden !important;
+		margin-bottom: 10px;
+		img
+		{
+			height: 150px;
+			max-width: none;
+			position: relative;
+			left : -50px;
+			top : -50px;
+		}
+	}
+
+
+}

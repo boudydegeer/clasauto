@@ -3,6 +3,12 @@
 use Clasauto\Http\Requests;
 use Clasauto\Http\Controllers\Controller;
 
+/**
+ * Class CarsController
+ * @Resource("cars")
+ *
+ * @package Clasauto\Http\Controllers
+ */
 class CarsController extends Controller {
 
 	/**
@@ -12,7 +18,7 @@ class CarsController extends Controller {
 	 */
 	public function index()
 	{
-		//
+		return view( 'cars.list' );
 	}
 
 	/**
@@ -38,12 +44,14 @@ class CarsController extends Controller {
 	/**
 	 * Display the specified resource.
 	 *
+	 *
 	 * @param  int  $id
-	 * @return Response
+	 *
+*@return Response
 	 */
 	public function show($id)
 	{
-		//
+		return view( 'cars.item' );
 	}
 
 	/**

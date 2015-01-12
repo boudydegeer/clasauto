@@ -20,6 +20,10 @@ class AnnotationsServiceProvider extends ServiceProvider {
 		'Clasauto\Http\Controllers\HomeController',
 		'Clasauto\Http\Controllers\Auth\AuthController',
 		'Clasauto\Http\Controllers\Auth\PasswordController',
+
+		'Clasauto\Http\Controllers\CarsController',
+		'Clasauto\Http\Controllers\BikesController',
+
 		'Clasauto\Http\Controllers\PagesController'
 	];
 

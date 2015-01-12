@@ -1,6 +1,10 @@
 @import "bootstrap";
+@import "layouts/layouts";
+@import "components/components";
 
-body {
+
+body
+{
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -8,29 +12,6 @@ body {
 	color: #B0BEC5;
 	display: table;
 	font-weight: 100;
-	font-family: 'Lato';
-}
-
-.navbar-center {
-	content: url("/images/logo.png");
-	position: absolute;
-	width: 180px;
-	height: 75px;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	background: transparent url("/images/logo-background.png") left top no-repeat;
-	background-size: 100%;
-	text-align: center;
-	display: block;
-}
-
-.title {
-	font-size: 96px;
-	margin-bottom: 40px;
-}
-
-.quote {
-	font-size: 24px;
+//	font-family: 'Lato';
+	font-size: 14px;
 }

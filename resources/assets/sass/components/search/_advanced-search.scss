@@ -1,0 +1,17 @@
+.advanced-search-box
+{
+	position: relative;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0px 0px 25px #ccc;
+	min-height: 100%;
+
+	.advanced-search-form{
+		position: relative;
+		top: 0;
+		bottom: 0;
+		min-height: 200px;
+	}
+
+}

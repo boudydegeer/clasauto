@@ -1,0 +1,63 @@
+.vehicles-list
+{
+
+	.item
+	{
+		padding: 10px;
+		margin-top:15px;
+		margin-bottom:35px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		box-shadow: 0px 0px 25px #ccc;
+		display: block;
+
+		.item-image
+		{
+			border-radius: 6px;
+			border: 1px solid #ccc;
+			overflow: hidden;
+		}
+
+		.item-details
+		{
+			padding: 0 5px;
+			position: relative;
+			font-size: 12px;
+			color: #666;
+
+
+			.item-title
+			{
+				color: #333;
+			}
+
+			.item-flag
+			{
+				right: 5px;
+				position: absolute;
+				font-size: 12px;
+				margin-top: 5px;
+			}
+
+			.item-model, .item-trim
+			{
+				margin-bottom: 4px;
+			}
+			.item-price
+			{
+				color: #222;
+				margin-top: 0;
+				font-weight: bold;
+			}
+
+		}
+		&:hover {
+			box-shadow: 0px 0px 5px green;
+			cursor: pointer;
+			text-decoration: none;
+
+		}
+	}
+
+
+}

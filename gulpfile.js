@@ -25,20 +25,36 @@ elixir(function(mix) {
       'bootstrap-sass-official/assets/javascripts/bootstrap.js',
       'public/js/vendor/bootstrap.min.js'
      )
+      .publish(
+      'bootstrap-sass-official/assets/fonts',
+      'public/fonts'
+      //'public/build/fonts/bootstrap'
+     )
      .publish(
       'font-awesome/css/font-awesome.min.css',
-      'public/css/vendor/font-awesome.css'
+      'public/css/vendor/font-awesome/font-awesome.css'
+     )
+     .publish(
+      'flag-icon-css/css/flag-icon.min.css',
+      'public/css/vendor/flag-icons-css/css/flag-icon.min.css'
+     )
+     .publish(
+      'flag-icon-css/flags',
+      'public/css/vendor/flag-icons-css/flags'
      )
      .publish(
       'font-awesome/fonts',
-      'public/css/fonts'
+      'public/css/vendor/fonts'
      )
      .styles([
         'app.css'
      ])
      .routes()
      .events()
-     .version('public/css/app.css')
+     .version([
+      'public/css/app.css',
+      'public/fonts/bootstrap/*'
+     ])
      .phpSpec();
 
 

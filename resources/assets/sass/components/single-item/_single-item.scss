@@ -1,0 +1,56 @@
+.single-item
+{
+	margin-top: 65px;
+
+	.single-item-carousel
+	{
+		img
+		{
+			border-radius: 12px;
+			overflow: hidden;
+		}
+
+		.carousel-control.left,
+		.carousel-control.right
+		{
+			border-radius: 12px;
+			overflow: hidden;
+		}
+
+	}
+
+	.item-thumb
+	{
+		margin-bottom: 5px;
+		img
+		{
+			border-radius: 8px;
+			overflow: hidden;
+		}
+	}
+
+	.item-box
+	{
+		box-shadow: 0px -5px 3px #ccc,  0px 5px 3px #ccc;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		height: auto;
+
+		.item-title, .item-trim, .item-price
+		{
+			color : #333;
+			font-weight: bold;
+		}
+	}
+
+	.item-details
+	{
+		.item-details-tabs
+		{
+			min-height: 350px;
+		}
+
+	}
+}
