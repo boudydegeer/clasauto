@@ -144,6 +144,10 @@ return [
 		'Clasauto\Providers\ConfigServiceProvider',
 		'Clasauto\Providers\EventServiceProvider',
 		'Clasauto\Providers\RouteServiceProvider',
+		'Clasauto\Providers\AnnotationsServiceProvider',
+		/*
+		 * Third Party Service Providers...
+		 */
 
 	],
 

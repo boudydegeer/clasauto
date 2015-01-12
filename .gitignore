@@ -2,3 +2,5 @@ vendor/
 node_modules/
 .idea/
 .env
+public/build
+public/css

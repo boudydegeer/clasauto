@@ -14,6 +14,8 @@ class RouteServiceProvider extends ServiceProvider {
 	 */
 	protected $namespace = 'Clasauto\Http\Controllers';
 
+
+
 	/**
 	 * Define your route model bindings, pattern filters, etc.
 	 *

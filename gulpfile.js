@@ -12,5 +12,34 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+  mix.sass("app.scss")
+     .publish(
+      'jquery/dist/jquery.min.js',
+      'public/js/vendor/jquery.min.js'
+     )
+     .publish(
+      'jquery/dist/jquery.min.map',
+      'public/js/vendor/jquery.min.map'
+     )
+     .publish(
+      'bootstrap-sass-official/assets/javascripts/bootstrap.js',
+      'public/js/vendor/bootstrap.min.js'
+     )
+     .publish(
+      'font-awesome/css/font-awesome.min.css',
+      'public/css/vendor/font-awesome.css'
+     )
+     .publish(
+      'font-awesome/fonts',
+      'public/css/fonts'
+     )
+     .styles([
+        'app.css'
+     ])
+     .routes()
+     .events()
+     .version('public/css/app.css')
+     .phpSpec();
+
+
 });

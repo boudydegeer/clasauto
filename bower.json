@@ -1,0 +1,21 @@
+{
+  "name": "clasauto.backend",
+  "version": "0.1.0",
+  "authors": [
+    "Boudy De Geer <boudydegeer@mosaiqo.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "font-awesome": "~4.2.0"
+  }
+}
